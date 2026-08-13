@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-08-13T20:15:00Z",
+  "source": "piltoverarchive.com",
+  "decksByLegend": {
+    "UNL-193": [
+      {
+        "deckId": "e7ac6e82-5fc1-4341-9604-9cba371b9d8e",
+        "url": "https://piltoverarchive.com/decks/view/e7ac6e82-5fc1-4341-9604-9cba371b9d8e",
+        "name": "【Regional Qualifier】Hartford - Best of Vex (TinyGuy)",
+        "author": "Piltover Archive (System)",
+        "likes": 55,
+        "deckCode": "CMAAAAAAAAAACAQAAAVKMAIAAABQGAAAFU5ESAIDACAACAYEAASCVDIBAMBAAACCVEAQCAYAQUAQGBAAQAAYMAOCAEBQGAAAFOWQDIACAQBQBCABSEA5OAO3AECAIABJHSLADQIBAABACAYAEAAQIAEPAEBACAAAVQAQGAYAFMWYQAIBAQAJMAI",
+        "textList": null,
+        "keyCardImageUrls": [
+          "https://cdn.piltoverarchive.com/cards/UNL-141.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/OGN-073.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/OGN-066.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-143.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-150.webp?width=640"
+        ]
+      },
+      {
+        "deckId": "9075f870-efed-4304-b2e8-2f49d5da753a",
+        "url": "https://piltoverarchive.com/decks/view/9075f870-efed-4304-b2e8-2f49d5da753a",
+        "name": "76.86% Win Rate Vex List",
+        "author": "Ridere",
+        "likes": 269,
+        "deckCode": "CMAAAAAAAAAQCAAAFIAACAIAACTACAADAMAAALJ2JEAQGAEAAEBAIABEFIBQKAAAFNBKSANMAGYACAQDAAWZEAIDAQAIAAMGAHBACBADAAAK2AMYAKQAEAIDADLQCAIEADUACAIEAGLACAABAMBQAIBLRAAQCAQAACUQDLABAECADFQB",
+        "textList": null,
+        "keyCardImageUrls": [
+          "https://cdn.piltoverarchive.com/cards/UNL-150a.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/OGN-073.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/OGN-066.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/SFD-146.webp?width=640"
+        ]
+      }
+    ],
+    "UNL-234": [
+      {
+        "deckId": "bac6dff7-84dd-4e7a-9f1a-42914ffff719",
+        "url": "https://piltoverarchive.com/decks/view/bac6dff7-84dd-4e7a-9f1a-42914ffff719",
+        "name": "CTG Alanzq - RQ Vancouver Winner- Best of Diana",
+        "author": "drawphasetcg",
+        "likes": 53,
+        "deckCode": "CMAAAAAAAAAACAQAABM2MAIAAABAMAAAL5T2SANNAG3QDRYBAECAAUAEAIAABMYBXEAQEAYARAAYYAICAQAIAAOGAEAQIAMWAEDAEAAALWQQEAIBAAFQEAYASIA5OAICAQAENTIBAECACTYBAQBOUAIAAIAQAADJAECAB3QBAIAQGAESAEBQIACGQAA4MAIBAQAU6",
+        "textList": null,
+        "keyCardImageUrls": [
+          "https://cdn.piltoverarchive.com/cards/SFD-140.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-080.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-150a.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-238.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/SFD-146.webp?width=640"
+        ]
+      }
+    ],
+    "OGN-265": [
+      {
+        "deckId": "023499a9-5dae-4188-9e91-9e7b334fe3de",
+        "url": "https://piltoverarchive.com/decks/view/023499a9-5dae-4188-9e91-9e7b334fe3de",
+        "name": "S3RQ - Utrecht - 2nd - Viktor - Rednaxell",
+        "author": "Four Hearts - Riftbound",
+        "likes": 48,
+        "deckCode": "CMAAAAAAAAAQCAAA2YAQAAIBAAAFSAADAQAAAX6RAHKQDXIBAIBQBGYBWAAQCBAATEAQGAIAAB2AGAYAIZIFCAYEABHKKANQAEBQKAAA3QA6AAPWAGEQFIQCAEBQBWABAMCAAP2H2IAQAAIBAMAEUAQCAAAGTYABAQCAAP2OUQA2SAIBAAAPMAI",
+        "textList": null,
+        "keyCardImageUrls": [
+          "https://cdn.piltoverarchive.com/cards/SFD-176.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-176.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-169.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/OGN-246.webp?width=640"
+        ]
+      }
+    ],
+    "OGS-019": [
+      {
+        "deckId": "99f9a2a9-b0fd-4399-bdfd-4327a030c6e3",
+        "url": "https://piltoverarchive.com/decks/view/99f9a2a9-b0fd-4399-bdfd-4327a030c6e3",
+        "name": "【Regional Qualifier】Hartford - #1 (Factor)",
+        "author": "Piltover Archive (System)",
+        "likes": 39,
+        "deckCode": "CMAAAAAAAAAQCAAAPYAACAIAAAVAAAYFAAACWLJ2RAAZYAICAMACIYICAQADK6ACAMAAALSNQQAQEAYANFXAIAYAACAADGQBUIBACAIACMBAGAGPAHMQCAIEABYQCAIDAAQACAIEADAACAQBAAAIAAICAMAGS3QBAQAHC",
+        "textList": null,
+        "keyCardImageUrls": [
+          "https://cdn.piltoverarchive.com/cards/SFD-110.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-120.webp?width=640",
+          "https://cdn.piltoverarchive.com/cards/UNL-113.webp?width=640"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generatedAt": "2026-08-13T20:15:00Z",
+  "legends": [
+    {
+      "id": "UNL-193",
+      "name": "Vex, Gloomist",
+      "champion": "Vex",
+      "domains": ["Calm", "Chaos"],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-193.webp?width=640"
+    },
+    {
+      "id": "UNL-234",
+      "name": "Diana, Scorn of the Moon",
+      "champion": "Diana",
+      "domains": ["Mind", "Chaos"],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-234.webp?width=640"
+    },
+    {
+      "id": "OGN-265",
+      "name": "Viktor, Herald of the Arcane",
+      "champion": "Viktor",
+      "domains": ["Order", "Mind"],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-265.webp?width=640"
+    },
+    {
+      "id": "OGS-019",
+      "name": "Master Yi, Wuju Bladesman",
+      "champion": "Master Yi",
+      "domains": ["Body", "Calm"],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-019.webp?width=640"
+    }
+  ]
+}
