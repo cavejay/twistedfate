@@ -1,0 +1,17 @@
+.footer {
+  margin-top: auto;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.75rem;
+  line-height: 1.6;
+  color: var(--text-dim);
+}
+
+.footer a {
+  color: var(--text-dim);
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  color: var(--gold-bright);
+}
