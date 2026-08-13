@@ -21,10 +21,3 @@ export function pickOne<T>(items: readonly T[]): T {
   if (items.length === 0) throw new Error('pickOne: items must be non-empty')
   return items[randomInt(items.length)]
 }
-
-/** Uniform pick of one element, excluding a previous pick when the array has an alternative. */
-export function pickOneExcluding<T>(items: readonly T[], exclude: T): T {
-  if (items.length <= 1) return items[0]
-  const pool = items.filter((item) => item !== exclude)
-  return pool.length > 0 ? pickOne(pool) : items[0]
-}

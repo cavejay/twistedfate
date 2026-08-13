@@ -1,37 +1,32 @@
 import { useEffect, useRef, useState } from 'react'
 import styles from './App.module.css'
 import { loadSnapshot, rollableLegends, decksFor } from './lib/data'
-import { pickOne, pickOneExcluding } from './lib/random'
+import { pickOne } from './lib/random'
 import { useReducedMotion } from './lib/useReducedMotion'
+import { useDesktop } from './lib/useDesktop'
+import { domainColor } from './lib/domainColors'
 import type { SnapshotData, Legend, DeckEntry } from './lib/types'
 import { GoButton } from './components/GoButton'
-import { LegendReel } from './components/LegendReel'
-import { LegendReveal } from './components/LegendReveal'
-import { DeckReel } from './components/DeckReel'
-import { DeckReveal } from './components/DeckReveal'
+import { DomainDial } from './components/DomainDial'
+import { RevealPanel } from './components/RevealPanel'
+import { SparkField } from './components/SparkField'
 import { Toast } from './components/Toast'
 import { Footer } from './components/Footer'
 
-type Phase =
-  | 'loading'
-  | 'error'
-  | 'idle'
-  | 'rollingLegend'
-  | 'legendRevealed'
-  | 'rollingDeck'
-  | 'deckRevealed'
+type Phase = 'loading' | 'error' | 'idle' | 'spinning' | 'revealed'
 
-const LEGEND_ROLL_MS = 1800
-const LEGEND_PAUSE_MS = 600
-const DECK_ROLL_MS = 1000
+const SPIN_MS = 2200
+const IDLE_SPARK_COLORS = ['#c9a44c']
 
 export default function App() {
   const reducedMotion = useReducedMotion()
+  const isDesktop = useDesktop()
   const [phase, setPhase] = useState<Phase>('loading')
   const [data, setData] = useState<SnapshotData | null>(null)
   const [legends, setLegends] = useState<Legend[]>([])
   const [legend, setLegend] = useState<Legend | null>(null)
   const [deck, setDeck] = useState<DeckEntry | null>(null)
+  const [rollId, setRollId] = useState(0)
   const [toast, setToast] = useState<{ id: number; message: string } | null>(null)
   const [announcement, setAnnouncement] = useState('')
 
@@ -90,37 +85,32 @@ export default function App() {
     const nextDeck = pickOne(deckPool)
     setLegend(nextLegend)
     setDeck(nextDeck)
-    setPhase('rollingLegend')
+    setRollId((id) => id + 1)
+    setPhase('spinning')
 
-    const legendRollMs = reducedMotion ? 0 : LEGEND_ROLL_MS
-    const pauseMs = reducedMotion ? 0 : LEGEND_PAUSE_MS
-    const deckRollMs = reducedMotion ? 0 : DECK_ROLL_MS
-
-    schedule(() => setPhase('legendRevealed'), legendRollMs)
-    schedule(() => setPhase('rollingDeck'), legendRollMs + pauseMs)
+    const spinMs = reducedMotion ? 0 : SPIN_MS
     schedule(() => {
-      setPhase('deckRevealed')
+      setPhase('revealed')
       setAnnouncement(`Rolled: ${nextLegend.name} — ${nextDeck.name} by ${nextDeck.author}`)
-    }, legendRollMs + pauseMs + deckRollMs)
+    }, spinMs)
   }
 
-  function rerollDeckOnly() {
-    if (!data || !legend || !deck) return
-    clearTimers()
-    const deckPool = decksFor(data, legend.id)
-    const nextDeck = pickOneExcluding(deckPool, deck)
-    setDeck(nextDeck)
-    setPhase('rollingDeck')
-
-    const deckRollMs = reducedMotion ? 0 : DECK_ROLL_MS
-    schedule(() => {
-      setPhase('deckRevealed')
-      setAnnouncement(`Rolled: ${legend.name} — ${nextDeck.name} by ${nextDeck.author}`)
-    }, deckRollMs)
+  if (!isDesktop) {
+    return (
+      <div className={styles.desktopNotice}>
+        <p className={styles.desktopNoticeText}>
+          The Riftbound Randomiser (and Rift Atlas, where you'll play the deck) is built for a
+          desktop browser. Please come back on a larger screen.
+        </p>
+      </div>
+    )
   }
+
+  const sparkColors = legend ? legend.domains.map((d) => domainColor(d)) : IDLE_SPARK_COLORS
 
   return (
     <div className={styles.app}>
+      <SparkField colors={sparkColors} burst={phase === 'spinning'} disabled={reducedMotion} />
       <div className={styles.stage}>
         {phase === 'loading' && <p className={styles.title}>Loading Riftbound data…</p>}
 
@@ -135,31 +125,27 @@ export default function App() {
 
         {phase === 'idle' && <GoButton onClick={rollAll} />}
 
-        {phase === 'rollingLegend' && legend && (
-          <LegendReel pool={legends} target={legend} durationMs={reducedMotion ? 0 : LEGEND_ROLL_MS} />
-        )}
-
-        {(phase === 'legendRevealed' || phase === 'rollingDeck') && legend && (
-          <LegendReveal legend={legend} />
-        )}
-
-        {phase === 'rollingDeck' && legend && deck && data && (
-          <DeckReel
-            pool={decksFor(data, legend.id)}
-            target={deck}
-            durationMs={reducedMotion ? 0 : DECK_ROLL_MS}
-          />
-        )}
-
-        {phase === 'deckRevealed' && legend && deck && data && (
-          <DeckReveal
-            key={deck.deckId}
-            deck={deck}
-            canRerollDeck={decksFor(data, legend.id).length > 1}
-            onToast={showToast}
-            onRerollAll={rollAll}
-            onRerollDeck={rerollDeckOnly}
-          />
+        {(phase === 'spinning' || phase === 'revealed') && legend && (
+          <div className={`${styles.dialStage} ${phase === 'revealed' ? styles.revealed : ''}`}>
+            <div className={styles.dialSlot}>
+              <DomainDial
+                domains={legend.domains}
+                spinToken={rollId}
+                durationMs={reducedMotion ? 0 : SPIN_MS}
+              />
+            </div>
+            {phase === 'revealed' && deck && data && (
+              <div className={styles.revealSlot}>
+                <RevealPanel
+                  key={deck.deckId}
+                  legend={legend}
+                  deck={deck}
+                  onToast={showToast}
+                  onRerollAll={rollAll}
+                />
+              </div>
+            )}
+          </div>
         )}
       </div>
 

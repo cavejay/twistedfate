@@ -1,0 +1,88 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.cardSlot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.cardLabel {
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+}
+
+.card {
+  width: 9.5rem;
+  border-radius: 10px;
+  border: 2px solid var(--gold);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.5);
+}
+
+.deckName {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text);
+  margin: 0;
+}
+
+.meta {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+  margin: 0;
+}
+
+.likes {
+  color: var(--gold-bright);
+}
+
+.fadeItem {
+  opacity: 0;
+  animation: fade-up 0.5s ease forwards;
+}
+
+.cards {
+  animation-delay: 0ms;
+}
+
+.deckName {
+  animation-delay: 120ms;
+}
+
+.meta {
+  animation-delay: 220ms;
+}
+
+.setBadgesWrap {
+  animation-delay: 320ms;
+}
+
+.actions {
+  animation-delay: 420ms;
+  width: 100%;
+}
+
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

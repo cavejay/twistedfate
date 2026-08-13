@@ -1,0 +1,54 @@
+.dial {
+  width: var(--dial-size, 22rem);
+  height: var(--dial-size, 22rem);
+  display: block;
+  filter: drop-shadow(0 0 24px rgba(201, 164, 76, 0.25));
+}
+
+.face {
+  opacity: 0.95;
+}
+
+.wedge {
+  stroke: #0f0a1f;
+  stroke-width: 2;
+}
+
+.hub {
+  fill: #1b1032;
+  stroke: #c9a44c;
+  stroke-width: 2.5;
+}
+
+.hubCap {
+  fill: #c9a44c;
+}
+
+.needle {
+  transform: rotate(0deg);
+  animation-name: needle-spin;
+  animation-duration: var(--spin-duration, 2000ms);
+  animation-timing-function: cubic-bezier(0.11, 0.6, 0.2, 1);
+  animation-fill-mode: forwards;
+  transform-origin: 200px 200px;
+}
+
+.needleShaft {
+  fill: var(--needle-color, #e8c873);
+  stroke: #0f0a1f;
+  stroke-width: 1;
+}
+
+.needleShaftSecondary {
+  fill: var(--needle-color, #f5f0e6);
+  opacity: 0.92;
+}
+
+@keyframes needle-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(var(--needle-rotation, 0deg));
+  }
+}

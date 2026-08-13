@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T20:15:00Z",
+  "generatedAt": "2026-08-13T21:30:00Z",
   "source": "piltoverarchive.com",
   "decksByLegend": {
     "UNL-193": [
@@ -17,7 +17,12 @@
           "https://cdn.piltoverarchive.com/cards/OGN-066.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/UNL-143.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/UNL-150.webp?width=640"
-        ]
+        ],
+        "chosenChampion": {
+          "name": "Vex, Apathetic",
+          "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-150.webp?width=640"
+        },
+        "sets": ["UNL", "SFD", "OGN"]
       },
       {
         "deckId": "9075f870-efed-4304-b2e8-2f49d5da753a",
@@ -32,7 +37,12 @@
           "https://cdn.piltoverarchive.com/cards/OGN-073.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/OGN-066.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/SFD-146.webp?width=640"
-        ]
+        ],
+        "chosenChampion": {
+          "name": "Vex, Apathetic",
+          "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-150a.webp?width=640"
+        },
+        "sets": ["UNL", "OGN", "SFD"]
       }
     ],
     "UNL-234": [
@@ -50,7 +60,12 @@
           "https://cdn.piltoverarchive.com/cards/UNL-150a.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/UNL-238.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/SFD-146.webp?width=640"
-        ]
+        ],
+        "chosenChampion": {
+          "name": "Diana, Lunari",
+          "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-079a.webp?width=640"
+        },
+        "sets": ["UNL", "OGN", "SFD", "OGS"]
       }
     ],
     "OGN-265": [
@@ -67,7 +82,12 @@
           "https://cdn.piltoverarchive.com/cards/UNL-176.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/UNL-169.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/OGN-246.webp?width=640"
-        ]
+        ],
+        "chosenChampion": {
+          "name": "Viktor, Leader",
+          "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-246.webp?width=640"
+        },
+        "sets": ["OGN", "UNL", "SFD"]
       }
     ],
     "OGS-019": [
@@ -83,7 +103,12 @@
           "https://cdn.piltoverarchive.com/cards/SFD-110.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/UNL-120.webp?width=640",
           "https://cdn.piltoverarchive.com/cards/UNL-113.webp?width=640"
-        ]
+        ],
+        "chosenChampion": {
+          "name": "Master Yi, Tempered",
+          "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-113.webp?width=640"
+        },
+        "sets": ["UNL", "SFD", "OGN"]
       }
     ]
   }

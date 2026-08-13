@@ -6,6 +6,11 @@ export interface Legend {
   imageUrl: string
 }
 
+export interface ChosenChampion {
+  name: string
+  imageUrl: string
+}
+
 export interface DeckEntry {
   deckId: string
   url: string
@@ -15,6 +20,9 @@ export interface DeckEntry {
   deckCode: string
   textList: string | null
   keyCardImageUrls: string[]
+  chosenChampion: ChosenChampion
+  /** Set shorthand codes the deck draws cards from, e.g. ["OGN","SFD","UNL"]. */
+  sets: string[]
 }
 
 export interface SnapshotData {

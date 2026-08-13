@@ -4,15 +4,13 @@ import styles from './ActionBar.module.css'
 
 interface ActionBarProps {
   deck: DeckEntry
-  canRerollDeck: boolean
   onToast: (message: string) => void
   onRerollAll: () => void
-  onRerollDeck: () => void
 }
 
 const RA_PLAY_URL = 'https://play.riftatlas.com/'
 
-export function ActionBar({ deck, canRerollDeck, onToast, onRerollAll, onRerollDeck }: ActionBarProps) {
+export function ActionBar({ deck, onToast, onRerollAll }: ActionBarProps) {
   async function handleCopyCode() {
     const result = await copyToClipboard(deck.deckCode)
     onToast(
@@ -58,11 +56,6 @@ export function ActionBar({ deck, canRerollDeck, onToast, onRerollAll, onRerollD
         <button className={styles.reroll} onClick={onRerollAll}>
           Re-roll everything
         </button>
-        {canRerollDeck && (
-          <button className={styles.reroll} onClick={onRerollDeck}>
-            New deck, same Legend
-          </button>
-        )}
       </div>
     </div>
   )
