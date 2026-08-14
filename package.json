@@ -7,7 +7,11 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "preview": "vite preview",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "snapshot": "node --experimental-strip-types scripts/snapshot.ts",
+    "snapshot:validate": "node --experimental-strip-types scripts/validate-snapshot.ts",
+    "test": "node --experimental-strip-types --test scripts/*.test.ts",
+    "test:live": "PA_LIVE=1 node --experimental-strip-types --test scripts/*.test.ts"
   },
   "dependencies": {
     "react": "^18.3.1",
@@ -15,6 +19,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.14.0",
+    "@types/node": "^26.2.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
