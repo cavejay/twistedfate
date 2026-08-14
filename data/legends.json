@@ -1,33 +1,495 @@
 {
-  "generatedAt": "2026-08-13T20:15:00Z",
+  "generatedAt": "2026-08-14T08:23:22.814Z",
   "legends": [
     {
-      "id": "UNL-193",
-      "name": "Vex, Gloomist",
-      "champion": "Vex",
-      "domains": ["Calm", "Chaos"],
-      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-193.webp?width=640"
+      "id": "77b2953a-5214-4421-862d-f33d8bc4590b",
+      "name": "Kai'Sa, Daughter of the Void",
+      "champion": "Kai'Sa",
+      "domains": [
+        "Fury",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-247.webp"
     },
     {
-      "id": "UNL-234",
-      "name": "Diana, Scorn of the Moon",
-      "champion": "Diana",
-      "domains": ["Mind", "Chaos"],
-      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-234.webp?width=640"
+      "id": "0518c241-d1ed-4e2a-b5c3-21b936d2a33f",
+      "name": "Volibear, Relentless Storm",
+      "champion": "Volibear",
+      "domains": [
+        "Body",
+        "Fury"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-249.webp"
     },
     {
-      "id": "OGN-265",
+      "id": "70ee0cd4-439a-4d00-8695-dd4c3d3aae65",
+      "name": "Jinx, Loose Cannon",
+      "champion": "Jinx",
+      "domains": [
+        "Fury",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-251.webp"
+    },
+    {
+      "id": "c8e10cc9-ceba-47aa-9a83-baea079780c0",
+      "name": "Darius, Hand of Noxus",
+      "champion": "Darius",
+      "domains": [
+        "Fury",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-253.webp"
+    },
+    {
+      "id": "5637b98c-a3dd-4dfa-b5b2-8c57c0051f86",
+      "name": "Ahri, Nine-Tailed Fox",
+      "champion": "Ahri",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-255.webp"
+    },
+    {
+      "id": "e2b8bbf2-fc8f-4cf6-a9d2-b2793fd7bfa3",
+      "name": "Lee Sin, Blind Monk",
+      "champion": "Lee Sin",
+      "domains": [
+        "Body",
+        "Calm"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-257.webp"
+    },
+    {
+      "id": "7364b9da-aaf2-4e01-9ec6-e1aa9b06ab12",
+      "name": "Yasuo, Unforgiven",
+      "champion": "Yasuo",
+      "domains": [
+        "Calm",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-259.webp"
+    },
+    {
+      "id": "8a167dd6-db7d-4a20-be61-d91e2cfd8a59",
+      "name": "Leona, Radiant Dawn",
+      "champion": "Leona",
+      "domains": [
+        "Calm",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-261.webp"
+    },
+    {
+      "id": "00bcedde-530a-4a26-85e7-9b8c45ff6a62",
+      "name": "Teemo, Swift Scout",
+      "champion": "Teemo",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-263.webp"
+    },
+    {
+      "id": "a9b7f199-a31b-4f94-9b17-7cf640d5853a",
       "name": "Viktor, Herald of the Arcane",
       "champion": "Viktor",
-      "domains": ["Order", "Mind"],
-      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-265.webp?width=640"
+      "domains": [
+        "Order",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-265.webp"
     },
     {
-      "id": "OGS-019",
+      "id": "919ae049-0778-4f7a-853e-fd162dc8a224",
+      "name": "Miss Fortune, Bounty Hunter",
+      "champion": "Miss Fortune",
+      "domains": [
+        "Body",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-267.webp"
+    },
+    {
+      "id": "e827f607-e986-4c68-80b3-9b167b253e71",
+      "name": "Sett, The Boss",
+      "champion": "Sett",
+      "domains": [
+        "Body",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGN-269.webp"
+    },
+    {
+      "id": "254141aa-d667-49b9-bd1c-559f6b4ee246",
+      "name": "Annie, Dark Child",
+      "champion": "Annie",
+      "domains": [
+        "Fury",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-017.webp"
+    },
+    {
+      "id": "b975c54c-20cc-45e9-a4ef-2d9f7ec10d42",
       "name": "Master Yi, Wuju Bladesman",
       "champion": "Master Yi",
-      "domains": ["Body", "Calm"],
-      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-019.webp?width=640"
+      "domains": [
+        "Body",
+        "Calm"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-019.webp"
+    },
+    {
+      "id": "74c9bc91-54fe-465e-b015-5460393ae671",
+      "name": "Lux, Lady of Luminosity",
+      "champion": "Lux",
+      "domains": [
+        "Order",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-021.webp"
+    },
+    {
+      "id": "3e46feb4-e70b-44dd-b084-47b5f18c1f21",
+      "name": "Garen, Might of Demacia",
+      "champion": "Garen",
+      "domains": [
+        "Body",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/OGS-023.webp"
+    },
+    {
+      "id": "f23a3d0d-c8fe-46fe-8df3-c9077327ef85",
+      "name": "Rumble, Mechanized Menace",
+      "champion": "Rumble",
+      "domains": [
+        "Fury",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-181.webp"
+    },
+    {
+      "id": "bb53ad01-d984-4b65-9ed3-018999f8d24c",
+      "name": "Lucian, Purifier",
+      "champion": "Lucian",
+      "domains": [
+        "Body",
+        "Fury"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-183.webp"
+    },
+    {
+      "id": "c0d12ee4-0dd1-4297-b99b-971fe295b5d1",
+      "name": "Draven, Glorious Executioner",
+      "champion": "Draven",
+      "domains": [
+        "Fury",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-185.webp"
+    },
+    {
+      "id": "105f34bc-e1f1-478c-8f03-21ad849a807b",
+      "name": "Rek'Sai, Void Burrower",
+      "champion": "Rek'Sai",
+      "domains": [
+        "Fury",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-187.webp"
+    },
+    {
+      "id": "c9d7a165-fa6e-4f51-b954-474a0d674ae6",
+      "name": "Ornn, Fire Below the Mountain",
+      "champion": "Ornn",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-189.webp"
+    },
+    {
+      "id": "d1d2edc4-cfc2-4c9f-bb07-49ca35ab3082",
+      "name": "Jax, Grandmaster at Arms",
+      "champion": "Jax",
+      "domains": [
+        "Body",
+        "Calm"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-193.webp"
+    },
+    {
+      "id": "4f2c62f6-6859-4ee9-9e17-cbc52a19f692",
+      "name": "Irelia, Blade Dancer",
+      "champion": "Irelia",
+      "domains": [
+        "Calm",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-195.webp"
+    },
+    {
+      "id": "28299956-0f42-4221-93c6-428e14aef235",
+      "name": "Azir, Emperor of the Sands",
+      "champion": "Azir",
+      "domains": [
+        "Calm",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-197.webp"
+    },
+    {
+      "id": "e4dfdf06-7a30-4846-b3e1-aaa8f65a45d9",
+      "name": "Ezreal, Prodigal Explorer",
+      "champion": "Ezreal",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-199.webp"
+    },
+    {
+      "id": "80c98442-424d-4688-b65a-d6071bf1c78b",
+      "name": "Renata Glasc, Chem-Baroness",
+      "champion": "Renata Glasc",
+      "domains": [
+        "Order",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-201.webp"
+    },
+    {
+      "id": "a378da80-7bda-4bd3-9a77-93dfd3ab4e48",
+      "name": "Sivir, Battle Mistress",
+      "champion": "Sivir",
+      "domains": [
+        "Body",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-203.webp"
+    },
+    {
+      "id": "47b35f92-55e3-4651-95fb-7248855d78e7",
+      "name": "Fiora, Grand Duelist",
+      "champion": "Fiora",
+      "domains": [
+        "Body",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/SFD-205.webp"
+    },
+    {
+      "id": "a54f40bc-6f61-4308-8cc6-47f78ccb8a4f",
+      "name": "Jhin, Virtuoso",
+      "champion": "Jhin",
+      "domains": [
+        "Fury",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-181.webp"
+    },
+    {
+      "id": "b103d55c-8e2c-4811-bdea-be7dcbb506b0",
+      "name": "Rengar, Pridestalker",
+      "champion": "Rengar",
+      "domains": [
+        "Body",
+        "Fury"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-183.webp"
+    },
+    {
+      "id": "c6b58c86-c4be-4351-83ba-0d7d86ca2422",
+      "name": "Pyke, Bloodharbor Ripper",
+      "champion": "Pyke",
+      "domains": [
+        "Fury",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-185.webp"
+    },
+    {
+      "id": "9586cdd4-f2a8-4672-97f8-2906c4f3f086",
+      "name": "Vi, Piltover Enforcer",
+      "champion": "Vi",
+      "domains": [
+        "Fury",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-187.webp"
+    },
+    {
+      "id": "e62bc147-819f-4ec9-9df4-a0bf7960ffca",
+      "name": "Lillia, Bashful Bloom",
+      "champion": "Lillia",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-189.webp"
+    },
+    {
+      "id": "279828a6-c44c-476e-bd1e-057a9969dabb",
+      "name": "Master Yi, Wuju Master",
+      "champion": "Master Yi",
+      "domains": [
+        "Body",
+        "Calm"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-191.webp"
+    },
+    {
+      "id": "36e91a0c-088c-4222-89c0-5b7c64dcfc43",
+      "name": "Vex, Gloomist",
+      "champion": "Vex",
+      "domains": [
+        "Calm",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-193.webp"
+    },
+    {
+      "id": "8c45aa6f-0475-403b-9b4a-846779f3454b",
+      "name": "Ivern, Green Father",
+      "champion": "Ivern",
+      "domains": [
+        "Calm",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-195.webp"
+    },
+    {
+      "id": "3fdea3a0-2265-480d-9c26-bb7ce08f6cb5",
+      "name": "Diana, Scorn of the Moon",
+      "champion": "Diana",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-197.webp"
+    },
+    {
+      "id": "b972c8a5-df69-42a3-8608-3ca00bf25d68",
+      "name": "LeBlanc, Deceiver",
+      "champion": "LeBlanc",
+      "domains": [
+        "Order",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-199.webp"
+    },
+    {
+      "id": "d7b310e5-6ff3-4568-ac31-b4402ea865aa",
+      "name": "Kha'Zix, Voidreaver",
+      "champion": "Kha'Zix",
+      "domains": [
+        "Body",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-201.webp"
+    },
+    {
+      "id": "fb945236-1cf9-439b-bd4b-0d6b7e54fe2f",
+      "name": "Poppy, Keeper of the Hammer",
+      "champion": "Poppy",
+      "domains": [
+        "Body",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/UNL-203.webp"
+    },
+    {
+      "id": "0f1320d8-f83a-48ee-9b63-6374f398791c",
+      "name": "Akali, Rogue Assassin",
+      "champion": "Akali",
+      "domains": [
+        "Fury",
+        "Calm"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-139.webp"
+    },
+    {
+      "id": "76c1bb8a-4b87-4a21-a0ef-1d3cd71a9d24",
+      "name": "Renekton, Butcher of the Sands",
+      "champion": "Renekton",
+      "domains": [
+        "Body",
+        "Fury"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-141.webp"
+    },
+    {
+      "id": "bde7c652-ee06-4e02-81ab-0f2457d33fbe",
+      "name": "Zed, Master of Shadows",
+      "champion": "Zed",
+      "domains": [
+        "Fury",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-143.webp"
+    },
+    {
+      "id": "f87fda32-8086-4813-84dc-2c1fad0646f3",
+      "name": "Nasus, Curator of the Sands",
+      "champion": "Nasus",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-145.webp"
+    },
+    {
+      "id": "bf98ae00-aa8e-4c11-a209-22ed8b451243",
+      "name": "Shen, Eye of Twilight",
+      "champion": "Shen",
+      "domains": [
+        "Calm",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-147.webp"
+    },
+    {
+      "id": "54d5e019-97b3-4260-991e-540ead0aa236",
+      "name": "Jayce, Defender of Tomorrow",
+      "champion": "Jayce",
+      "domains": [
+        "Body",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-149.webp"
+    },
+    {
+      "id": "4a1e6851-f12e-4bb0-acad-8831fd15746a",
+      "name": "Mel, Soul's Reflection",
+      "champion": "Mel",
+      "domains": [
+        "Mind",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-151.webp"
+    },
+    {
+      "id": "15be51b9-5031-46d9-8173-748e0a53101c",
+      "name": "Ambessa, Matriarch of War",
+      "champion": "Ambessa",
+      "domains": [
+        "Body",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-153.webp"
+    },
+    {
+      "id": "74c4fe45-2ce3-4330-8ac4-12087420ef45",
+      "name": "Kennen, Heart of the Tempest",
+      "champion": "Kennen",
+      "domains": [
+        "Order",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-155.webp"
     }
   ]
 }
