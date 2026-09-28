@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-21T08:42:28.877Z",
+  "generatedAt": "2026-09-28T09:27:18.549Z",
   "legends": [
     {
       "id": "77b2953a-5214-4421-862d-f33d8bc4590b",
@@ -490,6 +490,56 @@
         "Chaos"
       ],
       "imageUrl": "https://cdn.piltoverarchive.com/cards/VEN-155.webp"
+    },
+    {
+      "id": "f73b6714-ad91-4634-b92e-2e2d590b7c12",
+      "name": "Ekko, Boy Who Shattered Time",
+      "champion": "Ekko",
+      "domains": [
+        "Fury",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790378267493-pfhj90kxwq.png"
+    },
+    {
+      "id": "bb1e8d46-7f43-48da-9f2d-1460a2350f1e",
+      "name": "Ziggs, Hexplosives Expert",
+      "champion": "Ziggs",
+      "domains": [
+        "Fury",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790377326982-ys5fbelogzq.png"
+    },
+    {
+      "id": "25c57eb7-031d-4327-ae06-7a094185cb9a",
+      "name": "Orianna, Lady of Clockwork",
+      "champion": "Orianna",
+      "domains": [
+        "Calm",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790378198933-glwq0aedqq9.png"
+    },
+    {
+      "id": "ddf9a90d-9449-4e91-8d7b-ae9226975e88",
+      "name": "Seraphine, Starry-Eyed Songstress",
+      "champion": "Seraphine",
+      "domains": [
+        "Order",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790383068965-wnwh5foe5tm.png"
+    },
+    {
+      "id": "461d6de8-928f-474b-9aaf-fa3c2913d95b",
+      "name": "K'Sante Pride of Nazumah",
+      "champion": "K'Sante",
+      "domains": [
+        "Body",
+        "Calm"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790376086740-yssjudvblv8.webp"
     }
   ]
 }
