@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:27:18.549Z",
+  "generatedAt": "2026-10-05T10:07:06.661Z",
   "legends": [
     {
       "id": "77b2953a-5214-4421-862d-f33d8bc4590b",
@@ -499,7 +499,7 @@
         "Fury",
         "Mind"
       ],
-      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790378267493-pfhj90kxwq.png"
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-139.webp"
     },
     {
       "id": "bb1e8d46-7f43-48da-9f2d-1460a2350f1e",
@@ -509,7 +509,17 @@
         "Fury",
         "Chaos"
       ],
-      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790377326982-ys5fbelogzq.png"
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-141.webp"
+    },
+    {
+      "id": "dce528be-e21d-46ee-820e-73205b64db29",
+      "name": "Mordekaiser, Iron Revenant",
+      "champion": "Mordekaiser",
+      "domains": [
+        "Fury",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-143.webp"
     },
     {
       "id": "25c57eb7-031d-4327-ae06-7a094185cb9a",
@@ -519,17 +529,7 @@
         "Calm",
         "Mind"
       ],
-      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790378198933-glwq0aedqq9.png"
-    },
-    {
-      "id": "ddf9a90d-9449-4e91-8d7b-ae9226975e88",
-      "name": "Seraphine, Starry-Eyed Songstress",
-      "champion": "Seraphine",
-      "domains": [
-        "Order",
-        "Mind"
-      ],
-      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790383068965-wnwh5foe5tm.png"
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-145.webp"
     },
     {
       "id": "461d6de8-928f-474b-9aaf-fa3c2913d95b",
@@ -539,7 +539,37 @@
         "Body",
         "Calm"
       ],
-      "imageUrl": "https://cdn.piltoverarchive.com/temporary/1790376086740-yssjudvblv8.webp"
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-147.webp"
+    },
+    {
+      "id": "ddf9a90d-9449-4e91-8d7b-ae9226975e88",
+      "name": "Seraphine, Starry-Eyed Songstress",
+      "champion": "Seraphine",
+      "domains": [
+        "Order",
+        "Mind"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-151.webp"
+    },
+    {
+      "id": "eae39148-f564-484e-b57a-ce7d6646a3a2",
+      "name": "Evelynn, Agony's Embrace",
+      "champion": "Evelynn",
+      "domains": [
+        "Body",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-153.webp"
+    },
+    {
+      "id": "b7fb5704-3fce-4c8c-a4d6-2b038a028dba",
+      "name": "Jarvan IV, Exemplar of Demacia",
+      "champion": "Jarvan IV",
+      "domains": [
+        "Body",
+        "Order"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-155.webp"
     }
   ]
 }
