@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-05T10:07:06.661Z",
+  "generatedAt": "2026-10-12T10:14:33.716Z",
   "legends": [
     {
       "id": "77b2953a-5214-4421-862d-f33d8bc4590b",
@@ -533,13 +533,23 @@
     },
     {
       "id": "461d6de8-928f-474b-9aaf-fa3c2913d95b",
-      "name": "K'Sante Pride of Nazumah",
+      "name": "K'Sante, Pride of Nazumah",
       "champion": "K'Sante",
       "domains": [
         "Body",
         "Calm"
       ],
       "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-147.webp"
+    },
+    {
+      "id": "ce82c8de-c7d4-4fe9-b79c-f94ddb239fdc",
+      "name": "Riven, The Exile",
+      "champion": "Riven",
+      "domains": [
+        "Calm",
+        "Chaos"
+      ],
+      "imageUrl": "https://cdn.piltoverarchive.com/cards/RAD-149.webp"
     },
     {
       "id": "ddf9a90d-9449-4e91-8d7b-ae9226975e88",
