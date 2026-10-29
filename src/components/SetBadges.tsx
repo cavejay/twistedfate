@@ -1,7 +1,7 @@
 import styles from './SetBadges.module.css'
 
 // Fixed display order regardless of which sets a given deck actually uses.
-const ALL_SETS = ['OGN', 'OGS', 'SFD', 'UNL', 'VEN']
+const ALL_SETS = ['OGN', 'OGS', 'SFD', 'UNL', 'VEN', 'RAD']
 
 interface SetBadgesProps {
   sets: string[]
